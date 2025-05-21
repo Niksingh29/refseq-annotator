@@ -9,6 +9,8 @@ Entrez.email = "your_email@example.com"  # <-- Replace with your real email
 # Page configuration
 st.set_page_config(page_title="RefSeq & LOC ID Annotator", layout="centered")
 st.title("🔍 RefSeq & LOC ID Annotator")
+st.markdown("**Designed by Nikhil Singh**  ")
+st.markdown("Contact: niksingh29@gmail.com")
 st.markdown("Upload a CSV file with a column named **GeneID** containing RefSeq IDs (e.g., XM_, NM_) or LOC IDs (e.g., LOC123456...).")
 
 # File upload
