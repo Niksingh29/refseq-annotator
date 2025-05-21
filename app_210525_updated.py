@@ -10,7 +10,7 @@ Entrez.email = "your_email@example.com"  # <-- Replace with your real email
 st.set_page_config(page_title="RefSeq & LOC ID Annotator", layout="centered")
 st.title("🔍 RefSeq & LOC ID Annotator")
 st.markdown("**Designed by [Nikhil Singh](https://refseq-annotator-singh.streamlit.app)**")
-st.markdown("📧 Contact: [niksingh29@gmail.com](mailto:niksingh29@gmail.com)")
+st.markdown("📧 Contact or report errors: [niksingh29@gmail.com](mailto:niksingh29@gmail.com)")
 st.markdown("Upload a CSV file with a column named **GeneID** containing RefSeq IDs (e.g., XM_, NM_) or LOC IDs (e.g., LOC123456...).")
 
 st.markdown("""
@@ -36,7 +36,6 @@ LOC101488245
 
 ### 🔐 License and Citation
 - **License:** MIT, free for academic use
-- **Citation:** Singh N. (2024). RefSeq Annotator Tool. https://refseq-annotator-singh.streamlit.app
 
 ---
 """)
